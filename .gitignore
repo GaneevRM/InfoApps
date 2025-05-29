@@ -1,0 +1,46 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.iml
+.idea/
+.cxx/
+
+# Log/temporary files
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Android Studio settings
+captures/
+.externalNativeBuild/
+.navigation/
+*.hprof
+
+# Keystore files (если есть)
+*.jks
+*.keystore
+
+# Misc
+.DS_Store
+*.orig
+
+# Kotlin/Java/Jetpack Compose-specific
+*.class
+*.dex
+*.apk
+*.ap_
+
+# Testing
+test-results/
+outputs/
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
